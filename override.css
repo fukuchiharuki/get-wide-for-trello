@@ -1,0 +1,32 @@
+#trello-root #chrome-container #layer-manager-card-back > div {
+    background-color: rgba(0,0,0,.2) !important;
+}
+
+#trello-root #chrome-container [role="dialog"] {
+    background-color: #fdfefd !important;
+    width: calc(100vw - 40px) !important;
+    max-width: 1320px !important;
+    border-radius: 4px !important;
+}
+
+@media screen and (max-width:750px) {
+	#trello-root #chrome-container [role="dialog"] .window-main-col {
+		width: calc(100% - 30px) !important;
+		margin: auto !important;
+	}
+	#trello-root #chrome-container [role="dialog"] .window-sidebar {
+		width: calc(100% - 30px) !important;
+		margin: auto !important;
+	}
+}
+
+@media screen and (min-width:751px) {
+	#trello-root #chrome-container [role="dialog"] .window-main-col {
+		box-sizing: border-box;
+		width: calc(100% - 230px) !important;
+	}
+	#trello-root #chrome-container [role="dialog"] .window-sidebar {
+		box-sizing: border-box;
+		width: 230px !important;
+	}
+}

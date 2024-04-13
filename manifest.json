@@ -1,0 +1,19 @@
+{
+    "name": "Get Wide for Trello",
+    "version": "1.2.0.3",
+    "description": "Show trello cards wide.",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://trello.com/*"
+            ],
+            "css": [
+                "override.css"
+            ]
+        }
+    ],
+    "icons": {
+        "128": "icon-128x128.png"
+    },
+    "manifest_version": 2
+}
