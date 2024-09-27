@@ -9,6 +9,11 @@
   border-radius: 4px !important;
 }
 
+#trello-root #chrome-container [role="dialog"] .P2jfHL0ryA_fCy {
+	/* display: grid; */
+	grid-template-columns: [main] minmax(0, 1fr) [sidebar] 230px;
+}
+
 @media screen and (max-width:750px) {
 	#trello-root #chrome-container [role="dialog"] .window-main-col {
 		width: calc(100% - 30px) !important;
