@@ -1,9 +1,4 @@
-#trello-root #chrome-container #layer-manager-card-back > div {
-  background-color: rgba(0,0,0,.2) !important;
-}
-
 #trello-root #chrome-container [role="dialog"] {
-  background-color: #fdfefd !important;
   width: calc(100vw - 40px) !important;
   max-width: 1320px !important;
   border-radius: 4px !important;
