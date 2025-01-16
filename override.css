@@ -1,12 +1,17 @@
 #trello-root #chrome-container #layer-manager-card-back > div {
-    background-color: rgba(0,0,0,.2) !important;
+  background-color: rgba(0,0,0,.2) !important;
 }
 
 #trello-root #chrome-container [role="dialog"] {
-    background-color: #fdfefd !important;
-    width: calc(100vw - 40px) !important;
-    max-width: 1320px !important;
-    border-radius: 4px !important;
+  background-color: #fdfefd !important;
+  width: calc(100vw - 40px) !important;
+  max-width: 1320px !important;
+  border-radius: 4px !important;
+}
+
+#trello-root #chrome-container [role="dialog"] .P2jfHL0ryA_fCy {
+	/* display: grid; */
+	grid-template-columns: [main] minmax(0, 1fr) [sidebar] 230px;
 }
 
 @media screen and (max-width:750px) {
