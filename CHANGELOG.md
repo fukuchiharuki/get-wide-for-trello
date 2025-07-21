@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.5.0]
+## [1.5.0] - 2025-07-21
 ### Fixed
 - Keep up with new Trello style.
 
