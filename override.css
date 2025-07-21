@@ -4,7 +4,8 @@
   border-radius: 4px !important;
 }
 
-#trello-root #chrome-container [role="dialog"] .P2jfHL0ryA_fCy {
+#trello-root #chrome-container [role="dialog"] .P2jfHL0ryA_fCy,
+#trello-root #chrome-container [role="dialog"] .lQUUwFFqPNu94w {
 	/* display: grid; */
 	grid-template-columns: [main] minmax(0, 1fr) [sidebar] 230px;
 }
