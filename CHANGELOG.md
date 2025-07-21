@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.5.0]
+### Fixed
+- Keep up with new Trello style.
+
 ## [1.4.1] - 2025-07-10
 ### Fixed
 - Keep up with new Trello style (grid).
