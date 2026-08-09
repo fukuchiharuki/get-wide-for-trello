@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.6.1] - 2026-08-09
+### Fixed
+- Keep up with the latest Trello card layout.
+- Preserve Trello's native card side panel resizing.
+
 ## [1.6.0] - 2025-08-08
 ### Added
 - Super Wide Card
