@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.6.0] - 2025-08-08
+### Added
+- Super Wide Card
+  - No upper limit on card width.
+  - 50% width column when wide.
+
 ## [1.5.0] - 2025-07-21
 ### Fixed
 - Keep up with new Trello style.
