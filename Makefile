@@ -1,13 +1,7 @@
 all: package.zip
 
-package.zip: *.json *.png
-	zip -r ./package.zip . -x \
-	*.git/* \
-	.gitignore \
-	docs/ \
-	docs/* \
-	README.md \
-	Makefile 
+package.zip: manifest.json override.css icon-128x128.png
+	zip -FS ./package.zip manifest.json override.css icon-128x128.png
 
-clean: 
-	rm ./package.zip
+clean:
+	rm -f ./package.zip

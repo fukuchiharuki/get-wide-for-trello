@@ -1,18 +1,9 @@
-#trello-root #chrome-container #layer-manager-card-back [role="dialog"] {
+#trello-root #layer-manager-card-back [role="dialog"] {
   width: calc(100vw - 40px) !important;
   border-radius: 4px !important;
 }
 
-main > section + div {
+#trello-root #layer-manager-card-back [role="dialog"] main > section > hgroup,
+#trello-root #layer-manager-card-back [role="dialog"] main > section + div {
   max-width: none !important;
-}
-
-@media (min-width:1600px) {
-  /*aside*/.w7hbB5D5vQdlht:not(.dgBPhlZhAHfAax) {
-    width: calc(50vw - 20px) !important;
-  }
-
-  /*aside*/.w7hbB5D5vQdlht > div {
-    width: calc(50vw - 20px) !important;
-  }
 }
