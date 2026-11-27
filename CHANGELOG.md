@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.6.2] - 2026-11-27
+### Fixed
+- Keep up with the latest Trello card layout.
+
 ## [1.6.1] - 2026-08-09
 ### Fixed
 - Keep up with the latest Trello card layout.

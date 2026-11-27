@@ -1,4 +1,4 @@
-#trello-root #layer-manager-card-back [role="dialog"] {
+#trello-root #layer-manager-card-back [role="dialog"] > div {
   width: calc(100vw - 40px) !important;
   border-radius: 4px !important;
 }
