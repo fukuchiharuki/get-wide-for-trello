@@ -2,8 +2,7 @@
   "manifest_version": 3,
   "name": "Get Wide for Trello",
   "description": "Show trello cards wide.",
-  "version": "1.6.2",
-  "permissions": ["activeTab"],
+  "version": "1.6.3",
   "action": {
     "default_icon": "./icon-128x128.png"
   },

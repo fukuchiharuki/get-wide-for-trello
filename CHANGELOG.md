@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.6.3] - 2026-11-28
+### Removed
+- Remove the unused `activeTab` permission.
+
 ## [1.6.2] - 2026-11-27
 ### Fixed
 - Keep up with the latest Trello card layout.
