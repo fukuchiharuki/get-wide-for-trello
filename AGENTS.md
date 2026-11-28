@@ -12,18 +12,3 @@ Trelloのカード詳細ダイアログを幅広く表示する、Manifest V3形
 - `Makefile`: `manifest.json`、`override.css`、`icon-128x128.png` を格納した配布用の `package.zip` を生成する。
 
 `package.zip` は生成物でありGitの管理対象外なので、その内容を正として扱わないこと。
-
-## コミットメッセージ
-
-Angular式のConventional Commitsに従い、変更内容に応じて 次のプレフィックスを付ける。
-
-| Type | Description |
-| -- | -- |
-| build | Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm) |
-| ci | Changes to our CI configuration files and scripts (examples: GitHub Actions) |
-| docs | Documentation only changes |
-| feat | A new feature |
-| fix | A bug fix |
-| perf | A code change that improves performance |
-| refactor | A code change that neither fixes a bug nor adds a feature |
-| test | Adding missing tests or correcting existing tests |
